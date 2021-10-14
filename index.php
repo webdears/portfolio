@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body oncontextmenu= "return false">
     <div id="progressbar"></div>
     <!-- navbar -->
     <!-- <nav>
