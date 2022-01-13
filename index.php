@@ -41,7 +41,7 @@
     </nav> -->
     <div class="naviibut"><i class="fas fa-bars" id="nb"></i></div>
     <div id="nvres" class="nvres">
-        <a id="l" href="index.html"> <div class="logor">WebDears</div></a> 
+        <a id="l" href="index.php"> <div class="logor">WebDears</div></a> 
         <ul class="linksr">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
