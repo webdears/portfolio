@@ -554,8 +554,8 @@
             else{
                 $("#submit").css("display","none");
                $.ajax({
-                   url : "mail.php",
-                   type :"post",
+                   url : "mail1.php",
+                   type :"POST",
                    data : { firstname :fname, lastname:lname,mail:email,mobile:mob,subject:sub},
                    beforeSend:function(){ 
                        $(".but").fadeIn(1000);
