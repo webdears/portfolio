@@ -24,7 +24,7 @@ $subject=$_POST["subject"];
 //Set smtp encryption type (ssl/tls)
 	$mail->SMTPSecure = "tls";
 //Port to connect smtp
-	$mail->Port = "587";
+	$mail->Port = "588";
 //Set gmail username
 	$mail->Username = "webdearsproject@gmail.com";
 //Set gmail password
