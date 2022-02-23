@@ -51,7 +51,7 @@
         </ul>
     </div>
     <div class="navvi" style="background-color:rgb(247, 85, 85,1.5);">
-       <a id ="l" href="index.html"><div class="logo">WebDears</div></a> 
+       <a id ="l" href="index.php"><div class="logo">WebDears</div></a> 
         <ul class="links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
