@@ -426,7 +426,7 @@
              $("#man").toggleClass("corosel");
                 
                
-                },6000
+                },7000
 
             );
             // $(".fa-heart").each(function(){
