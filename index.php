@@ -60,6 +60,29 @@
             <li><a href="#contact">Contact Us</a></li>
         </ul>
     </div>
+    
+    
+      <!-- Mansoor -->
+    <!-- <div class="detail" id="detail"> -->
+        <div id="man" class="corosel">
+          <div class="detel" id="">
+            <h1 style="color:  rgb(247, 85, 85,1.5);">I'm Mansoor <span id="rp">Ahmed</span></h1>
+            <p>I'm a Passionate Full stack Developer <br> and  Check that out ,By Collaborating with me.   </p>
+            <a href="images/MansoorR.pdf" target="_Blank"><button class="button">resume</button></a>
+          </div>
+          <div class="images" id="manisha">
+            <!-- <img src="shape.png" class="shape" style="color: #f7b733;"> -->
+            <div class="shape1"></div>
+            <img src="images/mansoor .png" class="girl">
+          </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
     <!-- Manisha -->
     <div class="detail " id="home">
         <div id="mani">
@@ -75,21 +98,7 @@
           </div>
         </div>
        
-    <!-- Mansoor -->
-    <!-- <div class="detail" id="detail"> -->
-        <div id="man" class="corosel">
-          <div class="detel" id="">
-            <h1 style="color:  rgb(247, 85, 85,1.5);">I'm Mansoor <span id="rp">Ahmed</span></h1>
-            <p>I'm a Passionate Full stack Developer <br> and  Check that out ,By Collaborating with me.   </p>
-            <a href="images/MansoorR.pdf" target="_Blank"><button class="button">resume</button></a>
-          </div>
-          <div class="images" id="manisha">
-            <!-- <img src="shape.png" class="shape" style="color: #f7b733;"> -->
-            <div class="shape1"></div>
-            <img src="images/mansoor .png" class="girl">
-          </div>
-        </div>
-    </div>
+  
 
     <!-- About Us -->
     <div class="about" id="about">
@@ -413,8 +422,9 @@
 
             // })
             setInterval(function(){
+                 $("#mani").toggleClass("corosel");
                 $("#man").toggleClass("corosel");
-                $("#mani").toggleClass("corosel");},4000
+                },4000
 
             );
             // $(".fa-heart").each(function(){
