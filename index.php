@@ -422,8 +422,9 @@
 
             // })
             setInterval(function(){
+                                                              $("#man").toggleClass("corosel");
                  $("#mani").toggleClass("corosel");
-                $("#man").toggleClass("corosel");
+               
                 },4000
 
             );
