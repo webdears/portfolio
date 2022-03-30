@@ -61,7 +61,7 @@
         </ul>
     </div>
     
-    
+       <div class="detail " id="home">
       <!-- Mansoor -->
     <!-- <div class="detail" id="detail"> -->
         <div id="man" >
@@ -76,7 +76,7 @@
             <img src="images/mansoor .png" class="girl">
           </div>
         </div>
-    </div>
+ 
     
     
     
@@ -84,7 +84,7 @@
     
     
     <!-- Manisha -->
-    <div class="detail " id="home">
+ 
         <div id="mani" class="corosel">
           <div class="detel" id="">
             <h1 style="color:  rgb(247, 85, 85,1.5);">I'm Manisha <span id="rp">Poonia</span></h1>
@@ -97,7 +97,7 @@
             <img src="images/manisha.png" class="girl">
           </div>
         </div>
-       
+          </div>
   
 
     <!-- About Us -->
