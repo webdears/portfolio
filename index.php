@@ -64,7 +64,7 @@
     
       <!-- Mansoor -->
     <!-- <div class="detail" id="detail"> -->
-        <div id="man" class="corosel">
+        <div id="man" >
           <div class="detel" id="">
             <h1 style="color:  rgb(247, 85, 85,1.5);">I'm Mansoor <span id="rp">Ahmed</span></h1>
             <p>I'm a Passionate Full stack Developer <br> and  Check that out ,By Collaborating with me.   </p>
@@ -85,7 +85,7 @@
     
     <!-- Manisha -->
     <div class="detail " id="home">
-        <div id="mani">
+        <div id="mani" class="corosel">
           <div class="detel" id="">
             <h1 style="color:  rgb(247, 85, 85,1.5);">I'm Manisha <span id="rp">Poonia</span></h1>
             <p>This is my official Portfolio website to showcase my all works related to <br> web development and ui design. </p>
@@ -422,8 +422,9 @@
 
             // })
             setInterval(function(){
-                                                              $("#man").toggleClass("corosel");
-                 $("#mani").toggleClass("corosel");
+            $("#mani").toggleClass("corosel");
+             $("#man").toggleClass("corosel");
+                
                
                 },4000
 
